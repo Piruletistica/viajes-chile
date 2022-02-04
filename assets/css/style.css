@@ -1,0 +1,13 @@
+html {scroll-behavior: auto !important;}
+
+.navbar {background-color: transparent;
+position:fixed;
+width: 100vw;
+z-index: 1;
+font-family: "roboto";
+color: white;}
+
+.logo {width: 40px;
+}
+
+
