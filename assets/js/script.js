@@ -15,7 +15,13 @@ $("a").click(function(){
 
   $("html, body").animate(
     {
-      scrolltop: $(go).offset().top, -70} 800)
+      scrolltop: $(go).offset().top
+    },
+    800
+  )
+})
+ })
+
   
 
     
