@@ -35,7 +35,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="carouselExampleControls">Inicio</a>
+            <a class="nav-link" href="#carousel">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#quienes-somos">Quienes somos</a>
@@ -51,7 +51,7 @@
   </nav>
 
   <!--carrusel-->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
@@ -63,25 +63,56 @@
         <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouses" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-shows"></span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#carouses" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-shows"></span>
     </button>
   </div>
+<!--quienes somos-->
+<section id="quienes-somos" class="container text-center my-5 d-none d-sm-block">
+  <h2 class="display-3 font-weight-bold my-4">¿Quienes somos?</h2>
+  <hr class="opacity-100 w-100">
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <i class="container w-75 fas fa-plane my-3 fa-3x my-3 "></i>
+          <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Esse, eos perspiciatis qui consequuntur sint ducimus itaque
+        inventore dolorem error dignissimos, illo magnam temporibus laborum
+        voluptatem deserunt perferendis consectetur aut at.</p>
+    </div>
+    <div class="col-12 col-md-4">
+      <i class="contauner w-75 fas fa-mountain my-3 fa-3x my-3"></i>
+      <h3 class="my-3 ">Crítica culinaria</h3>
+      <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Provident libero reiciendis quod, quidem sequi ducimus dolore odio
+        porro, quibusdam commodi, laborum ipsum! Voluptas velit cumque facilis
+        blanditiis enim, maxime repellendus.</p>
+    </div>
+    <div class="col-12 col-md-4">
+      <i class="container w-75 fas fa-route my-3 fa-3x my-3"></i>
+      <h3 class="my-3">Bloggera de viajes</h3>
+      <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Eum aliquid qui dolores veritatis quia facere aliquam cumque ex,
+        maxime sunt incidunt, fugiat praesentium, ut obcaecati dignissimos
+        voluptate. Cupiditate, et, vero.</p>
+    </div>
+  </div>
+</section>
+
   <!--Tarjetas destacados-->
 
   <section id= "destacados" class="container mb-5">
     <hr>
-    <h2 class="display-4 text-center font-weight-bold ">RECETAS RELACIONADAS</h2>
+    <h2 class="display-4 text-center font-weight-bold ">Destacados</h2>
 
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
       <div class="col">
         <div class="card h-100" id="card1">
-          <img class="card-img-top" src="assets/img/recipe-card-1.png" alt="card-1">
+          <img class="card-img-top" src="assets/img/card1.jpg" alt="card-1">
           <div class="card-body" id="crb1">
             <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
             <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
@@ -92,7 +123,7 @@
       </div>
       <div class="col">
         <div class="card h-100" id="card2">
-          <img class="card-img-top" src="assets/img/recipe-card-2.png" alt="card-2">
+          <img class="card-img-top" src="assets/img/card2.jpg" alt="card-2">
           <div class="card-body" id="crb2">
             <h5 class="card-title">TIRAMISÚ</h5>
             <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
@@ -102,19 +133,30 @@
         </div>
       </div>
       <div class="col">
-        <div class="card h-100" id="card3">
-          <img class="card-img-top" src="assets/img/recipe-card-3.png" alt="card-3">
-          <div class="card-body" id="crb3">
-            <h5 class="card-title">PLATEADA</h5>
-            <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet
-              ac
-              eleifend risus, urna auctor inceptos mattis dapibus.</p>
+        <div class="card h-100" id="card2">
+          <img class="card-img-top" src="assets/img/card3.jpg" alt="card-2">
+          <div class="card-body" id="crb2">
+            <h5 class="card-title">TIRAMISÚ</h5>
+            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+              lacinia
+              sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+          </div>
+        </div>
+      </div><div class="col">
+        <div class="card h-100" id="card2">
+          <img class="card-img-top" src="assets/img/card4.jpg" alt="card-2">
+          <div class="card-body" id="crb2">
+            <h5 class="card-title">TIRAMISÚ</h5>
+            <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+              lacinia
+              sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
           </div>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
+    </section>
+              
+
+      
 <!--contactanos contacto-->
   <div id= "contacto" class=" newsletter d-flex  bg-danger text-center text-white justify-content-center" id="contact">
     <div class="news">
