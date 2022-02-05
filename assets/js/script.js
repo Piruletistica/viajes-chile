@@ -15,13 +15,10 @@ $("a").click(function(){
 
   $("html, body").animate(
     {
-      scrolltop: $(go).offset().top}, 800)
+      scrolltop: $(go).offset().top, -70} 800)
   
 
-    })
-  })
- 
-
+    
 //Desaparecer y aparecer card-body
 $("#card1").click(function() {
   $("#crb1").toggle("slow", function() {
