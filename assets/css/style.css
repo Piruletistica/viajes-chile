@@ -22,19 +22,23 @@ html {
 }
 
 hr {
-    color: rgb(30, 191, 255)
+    color: rgb(30, 191, 255);
 }
 
 p {
     text-align: justify;
+    font-family: "roboto";
+    font-size: 50;
+
 }
 h2 {font-family: roboto;
-font-size: 300;}
+font-size: 400;}
 
-h3 {font-family: roboto;
-    font-size: 400;}
+h4 {font-family: roboto;
+    font-size: 300;
+colorr:white}
 
-#quienes-somos i {
+i {
     background-color: rgb(30, 191, 255);
     color: white
 }
@@ -60,6 +64,7 @@ h3 {font-family: roboto;
     background-color: black;
     color: white;
 }
-#contacto {
-    background-color: black;
+#contacto {background-color: black; 
 }
+footer {background-color: rgb(30, 191, 255);
+color:white}
